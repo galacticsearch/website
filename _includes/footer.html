@@ -22,9 +22,9 @@
       <div class="col-md-4">
         <h3><i class="fa fa-heart"></i> Socialize</h3>
         <div id="social-icons">
-          {% if site.googleplus_link %}
-            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
-              <i class="fa fa-google-plus"></i>
+          {% if site.instagram_link %}
+            <a href="{{ site.instagram_link }}" class="btn-group instagram">
+              <i class="fa-brands fa-instagram"></i>
             </a>
           {% endif %}
 
@@ -34,17 +34,23 @@
             </a>
           {% endif %}
 
-          {% if site.facebook_link %}
+          {% if site.twitter_link %}
             <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
+              <i class="fa-brands fa-x-twitter"></i>
             </a>
           {% endif %}
 
-          {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fa fa-facebook"></i>
+          {% if site.tiktok_link %}
+            <a href="{{ site.tiktok_link }}" class="btn-group tiktok">
+              <i class="fa-brands fa-tiktok"></i>
             </a>
           {% endif %}
+
+          {% if site.medium_link %}
+          <a href="{{ site.medium_link }}" class="btn-group medium">
+            <i class="fa-brands fa-medium"></i>
+          </a>
+        {% endif %}
         </div>
       </div>    
     </div>

@@ -273,7 +273,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: serif
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -3953,11 +3953,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #a609e9;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #c8a0db;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -5557,14 +5557,16 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 150px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace
 }
 .carousel-caption .btn {
   text-shadow: none;

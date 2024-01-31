@@ -152,7 +152,7 @@ body {
 }
 
 a {
-    color: #55CBD2;
+    color: #5555d2;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -440,7 +440,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #1bbd9b;
+  color: #b5b6ed;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -524,12 +524,12 @@ footer h3 {
   font-size: 22px;
 }
 
-#social-icons .btn-group {
-    color: #55CBD2;
+#social-icons .btn-group {   
+    color: #ffffff;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {
-    color: #ffffff;
+    color: #55CBD2;
 }
 
 .copyright {
