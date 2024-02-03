@@ -3953,11 +3953,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #a609e9;
+  color: #010101;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #c8a0db;
+  color: #f26412;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
